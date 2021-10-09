@@ -14,6 +14,8 @@ var playerX = (canvas.width-playerWidth) / 2;
  
 var rightPressed = false;
 var leftPressed = false;
+var upPressed = false;
+var downPressed = false;
  
 function drawCircle() {
     ctx.beginPath();
