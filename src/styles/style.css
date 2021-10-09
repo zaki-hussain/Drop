@@ -1,0 +1,23 @@
+:root {
+    --black: #2E3440;
+    --darkGray: #3B4252;
+    --white: #ECEFF4;
+}
+
+html {
+    background-color: var(--black);
+}
+
+canvas {
+    background: var(--darkGray);
+    display: block;
+    margin:
+    0 auto;
+}
+
+h1 {
+    color: var(--white);
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
