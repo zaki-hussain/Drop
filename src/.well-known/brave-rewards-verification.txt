@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: drop123.netlify.app
+Token: 8ba2d8c53f61e6dee4a777e479ae24c02432df6832ec6aa9a15e9846a035c6e0
