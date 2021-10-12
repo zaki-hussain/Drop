@@ -23,7 +23,7 @@ function drawCircle() {
     ctx.fillStyle = "#ECEFF4";
     ctx.fill();
     ctx.closePath();
-    if (y + dy > 507.5) {
+    if (y > 490) {
  
         if (x > playerX && x < playerX + 80) {
             score++;

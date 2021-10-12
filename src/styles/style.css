@@ -10,9 +10,8 @@ html {
 
 canvas {
     background: var(--darkGray);
-    display: block;
-    margin:
-    0 auto;
+    position: absolute;
+    margin: 0 calc(50% - 250px);
 }
 
 h1 {
@@ -20,4 +19,16 @@ h1 {
     text-align: center;
     font-size: 40px;
     margin: 20px;
+}
+
+.instructions {
+    color: var(--white);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#top {
+    margin-top: 190px;
 }
