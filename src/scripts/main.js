@@ -25,7 +25,7 @@ function drawCircle() {
     ctx.closePath();
     if (y > 490) {
  
-        if (x > playerX && x < playerX + 80) {
+        if (x > playerX - 5 && x < playerX + 85) {
             score++;
             if (score % 5 == 0) {
                 dy = dy + 0.5;
@@ -112,5 +112,11 @@ function keyUpHandler(e) {
     }
 }
  
-const myHeading = document.querySelector('h1');
+window.addEventListener("keydown", function(e) {
+    if(["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].indexOf(e.code) > -1) {
+        e.preventDefault();
+    }
+}, false);
+
+const myHeading = document.querySelector(".score");
 setInterval(draw, 10);
