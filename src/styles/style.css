@@ -24,16 +24,16 @@ canvas {
 .instructions {
     margin-top: 1px;
     margin-bottom: 1px;
-    margin-left: 10px;
-    text-align: left;
-    display: block;
-    width: 300px;
-    
+    margin-left: 0;
+    text-align: right;
 }
 
 .title {
     text-align: center;
-    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    font-size: 50px;
 }
 
 .footer {
