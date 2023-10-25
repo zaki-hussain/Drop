@@ -1,2 +1,2 @@
 # Drop
- Game where you have to prevent the balls from touching the floor...
+Game where you have to prevent the ball from touching the floor
