@@ -1,2 +1,10 @@
 # Drop
-Game where you have to prevent the ball from touching the floor
+Prevent the ball from touching the floor
+
+**Left arrow / a**: move left
+
+**Right arrow / d**: move right
+
+**Up arrow / w**: hold to speed up
+
+**Down arrow / a**: hold to slow down
